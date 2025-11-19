@@ -1,4 +1,4 @@
-# 🕉️ Ambedkar RAG Application --- AI Chatbot for Dr. B. R. Ambedkar PDFs
+#  Ambedkar RAG Application --- AI Chatbot for Dr. B. R. Ambedkar PDFs
 
 This project is an **AI-powered Retrieval-Augmented Generation (RAG)
 chatbot** designed specifically to answer questions related to **Dr. B.
@@ -8,19 +8,19 @@ a local Llama 2 model to generate accurate, context-based answers.
 
 ------------------------------------------------------------------------
 
-## 🚀 Features
+##  Features
 
--   📄 Reads all PDFs from the `data/` folder\
--   🔍 Uses FAISS for fast document search\
--   ✂️ Splits PDFs into meaningful chunks\
--   🧠 Embeddings created using MiniLM\
--   🤖 Local Llama-2-7B-GGML model for offline inference\
--   💬 Conversational memory (multi-turn chat)\
--   🎨 Streamlit-based chat interface using `streamlit_chat`
+-    Reads all PDFs from the `data/` folder\
+-    Uses FAISS for fast document search\
+-    Splits PDFs into meaningful chunks\
+-    Embeddings created using MiniLM\
+-    Local Llama-2-7B-GGML model for offline inference\
+-    Conversational memory (multi-turn chat)\
+-    Streamlit-based chat interface using `streamlit_chat`
 
 ------------------------------------------------------------------------
 
-## 📂 Project Structure
+##  Project Structure
 
     project/
     │
@@ -35,7 +35,7 @@ a local Llama 2 model to generate accurate, context-based answers.
 
 ------------------------------------------------------------------------
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -71,7 +71,7 @@ Example `requirements.txt`:
 
 ------------------------------------------------------------------------
 
-## ▶️ How to Run
+##  How to Run
 
 ``` bash
 streamlit run app.py
@@ -83,7 +83,7 @@ This will open the app at:
 
 ------------------------------------------------------------------------
 
-## 💡 How the Ambedkar RAG Works
+##  How the Ambedkar RAG Works
 
 1.  Loads Ambedkar PDFs from `/data`\
 2.  Splits them into chunks using LangChain\
@@ -95,7 +95,7 @@ This will open the app at:
 
 ------------------------------------------------------------------------
 
-## ❓ Usage Examples
+##  Usage Examples
 
 Ask questions like:
 
@@ -109,7 +109,7 @@ The answers will be based on the PDF content.
 
 ------------------------------------------------------------------------
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### FAISS Import Error:
 
